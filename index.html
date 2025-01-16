@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Primer intento portfolio">
+    <title>Alberto Yali</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans leading-relaxed">
+    <header class="sticky top-0 bg-gray-900 z-50">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <a href="#" class="text-2xl font-bold">Alberto Yali</a>
+            <nav class="flex gap-6">
+                <a href="#about" class="hover:text-teal-400 transition">About</a>
+                <a href="#projects" class="hover:text-teal-400 transition">Projects</a>
+                <a href="#contact" class="hover:text-teal-400 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="h-screen flex items-center justify-center">
+            <div class="text-center">
+                <h1 class="text-5xl font-extrabold mb-4">Hi, I'm <span class="text-teal-400">Alberto</span></h1>
+                <p class="text-xl text-gray-400">Developer</p>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-6">About Me</h2>
+                <p class="text-gray-400 leading-relaxed">
+                    I’m a developer passionate about crafting digital experiences that combine clean design and functional interfaces. My journey in development is driven by a love for learning and creating.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12">Projects</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                        <img src="proyecto1.jpg" alt="Project 1" class="rounded mb-4">
+                        <h3 class="text-lg font-semibold">Project 1</h3>
+                        <p class="text-gray-400">Brief description of the project.</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                        <img src="proyecto2.jpg" alt="Project 2" class="rounded mb-4">
+                        <h3 class="text-lg font-semibold">Project 2</h3>
+                        <p class="text-gray-400">Brief description of the project.</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                        <img src="proyecto3.jpg" alt="Project 3" class="rounded mb-4">
+                        <h3 class="text-lg font-semibold">Project 3</h3>
+                        <p class="text-gray-400">Brief description of the project.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+                <p class="text-gray-400 mb-6">Feel free to reach out for collaborations or just a friendly chat.</p>
+                <a href="mailto:danielyalikotte@gmail.com" class="px-6 py-3 bg-teal-400 text-gray-900 font-bold rounded-lg shadow-lg hover:bg-teal-500 transition">
+                    Say Hello
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-6 bg-gray-900 text-center text-gray-400">
+        2025 - Alberto Yali
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
