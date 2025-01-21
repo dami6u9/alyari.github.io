@@ -15,4 +15,4 @@ Este proyecto es una carta de presentación donde muestro quién soy, mis proyec
 - **Portafolio de proyectos**: Muestra breve de algunos proyectos que he realizado.
 - **Sección de contacto**: Formas de conectarse conmigo para colaboraciones o consultas.
 
-Portafolio en vivo: 
+Portafolio en vivo: https://dami6u9.github.io/alyari.github.io/
